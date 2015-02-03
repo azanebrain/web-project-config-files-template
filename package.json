@@ -1,0 +1,27 @@
+{
+  "name": "project-name",
+  "version": "0.1.0",
+  "description": "Project Description",
+  "author": "AJ Zane <androiddreams@AJZane.com>",
+  "homepage": "https://username.github.io/repo-nome",
+  "engines": {
+    "node": ">=v0.10.22"
+  },
+  "scripts": {
+    "build": "echo \"Error: there is no build command specified\" && exit 1",
+    "postinstall": "node_modules/.bin/bower install",
+    "serve": "echo \"Error: there is no serve command specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {},
+  "devDependencies" : {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repo-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/repo-name/issues"
+  },
+  "private": true,
+  "license": "GPL2"
+}
